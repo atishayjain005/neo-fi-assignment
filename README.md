@@ -7,7 +7,7 @@ I've used ReactJS to develop this project.
 
 For styling I've used EmotionJS and Bootstrap.
 
-To start this app on your localhost you'llhave to clone the repo then use the following command on your terminal
+To start this app on your localhost you'll have to clone the repo then use the following command on your terminal
 
 # yarn install
 # yarn run dev
