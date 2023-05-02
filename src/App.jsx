@@ -1,6 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
 import Form from "./components/form/Form";
-import NavbarMobile from "./components/navbar/NavbarMobile";
 
 import Ethereum from "./assets/Ethereum.png";
 import Bitcoin from "./assets/Bitcoin.png";
@@ -48,7 +47,7 @@ const cryptoCur = [
 function App() {
   return (
     <div className="app">
-      {window.innerWidth > 600 ? <Navbar /> : <NavbarMobile />}
+      <Navbar />
       <Form cryptoCur={cryptoCur} />
     </div>
   );
